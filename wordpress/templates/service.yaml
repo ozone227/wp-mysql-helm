@@ -11,6 +11,5 @@ spec:
   - port: 80
     protocol: TCP
     targetPort: 80
-    name: web
   selector:
     app: wordpress
