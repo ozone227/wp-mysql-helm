@@ -3,7 +3,7 @@ entries:
   mysql:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-09-17T18:30:19.770570248-06:00"
+    created: "2024-09-23T15:41:27.310079796-06:00"
     description: A Helm chart for Kubernetes
     digest: 0b7c18de44cbc9f01c9445951310a94d503f94670ed383319bd1611cacd8ce5f
     name: mysql
@@ -14,12 +14,12 @@ entries:
   wordpress:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-09-17T18:30:19.770715226-06:00"
+    created: "2024-09-23T15:41:27.310151309-06:00"
     description: A Helm chart for Kubernetes
-    digest: 913ce9250b93632e6b2d1594c01c523ce7c2defb8d156ea4e24f5cf353e2baef
+    digest: 347756efd280a1cbe58f887ec93bf84e29a3cdeba5cbe1dadaf9eed02655d566
     name: wordpress
     type: application
     urls:
-    - https://ozone227.github.io/wp-mysql-helm/wordpress-0.1.1.tgz
-    version: 0.1.1
-generated: "2024-09-17T18:30:19.769193089-06:00"
+    - https://ozone227.github.io/wp-mysql-helm/wordpress-0.1.2.tgz
+    version: 0.1.2
+generated: "2024-09-23T15:41:27.309890697-06:00"
