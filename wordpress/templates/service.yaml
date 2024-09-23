@@ -7,8 +7,9 @@ metadata:
     app: wordpress
 spec:
   ports:
-    - port: 80
+  - port: 3100
+    protocol: TCP
+    targetPort: 3100
+    name: web
   selector:
     app: wordpress
-    tier: frontend
-  type: LoadBalancer
